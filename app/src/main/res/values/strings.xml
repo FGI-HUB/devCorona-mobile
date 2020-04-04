@@ -19,4 +19,17 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
+
+    <string name="menu_info">S\'informer</string>
+    <string name="menu_evolution">Evolution de la pandemie</string>
+    <string name="menu_symptome">Symptomes</string>
+
+    <string name="menu_form">Formulaire</string>
+    <string name="menu_tip">Aide et conseil</string>
+    <string name="menu_alert">Déclencher alerte</string>
+
+    <string name="menu_update">Mis à jour</string>
+    <string name="menu_follow">Prise en charge</string>
+    <string name="logo_text">Logo texte</string>
+    <string name="logo_vert">Logo vert</string>
 </resources>
