@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31D69C</color>
+    <color name="colorDarkdevCorona">#31D69C</color>
+    <color name="colorPrimaryDark">#31D69C</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorFillCircle">#5EFF4580</color>
+    <color name="colorStrokeCircle">#A1FF003B</color>
+</resources>
