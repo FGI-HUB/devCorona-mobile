@@ -10,34 +10,36 @@
         android:name="com.fgihub.stopcoronacmr.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
-
-        <action
-            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-            app:destination="@id/nav_home_second" />
-    </fragment>
-    <fragment
-        android:id="@+id/nav_home_second"
-        android:name="com.fgihub.stopcoronacmr.ui.home.HomeSecondFragment"
-        android:label="@string/home_second"
-        tools:layout="@layout/fragment_home_second">
-        <action
-            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
-            app:destination="@id/nav_home" />
-
-        <argument
-            android:name="myArg"
-            app:argType="string" />
     </fragment>
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.fgihub.stopcoronacmr.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.fgihub.stopcoronacmr.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_evolution"
+        android:name="com.fgihub.stopcoronacmr.ui.evolution.EvolutionFragment"
+        android:label="@string/menu_evolution"
+        tools:layout="@layout/fragment_evolution" />
+
+    <fragment
+        android:id="@+id/nav_symptome"
+        android:name="com.fgihub.stopcoronacmr.ui.symptome.SymptomeFragment"
+        android:label="@string/menu_symptome"
+        tools:layout="@layout/fragment_symptome" />
+
+    <fragment
+        android:id="@+id/nav_forms"
+        android:name="com.fgihub.stopcoronacmr.ui.econsultation.EConsultationFragment"
+        android:label="@string/menu_form"
+        tools:layout="@layout/fragment_e_consultation" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.fgihub.stopcoronacmr.ui.signal_alert.SignalAlertFragment"
+        android:label="@string/menu_alert"
+        tools:layout="@layout/fragment_signal_alert" />
+
+    <fragment
+        android:id="@+id/nav_follow"
+        android:name="com.fgihub.stopcoronacmr.ui.follow.FollowFragment"
+        android:label="@string/menu_follow"
+        tools:layout="@layout/fragment_follow" />
 </navigation>

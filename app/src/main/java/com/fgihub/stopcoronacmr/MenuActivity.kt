@@ -2,8 +2,6 @@ package com.fgihub.stopcoronacmr
 
 import android.os.Bundle
 import android.view.Menu
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -31,7 +29,7 @@ class MenuActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home, R.id.nav_evolution, R.id.nav_symptome, R.id.nav_forms, R.id.nav_notification, R.id.nav_follow
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

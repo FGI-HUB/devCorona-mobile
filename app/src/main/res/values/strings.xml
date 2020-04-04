@@ -14,7 +14,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Actualité</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
@@ -24,12 +24,14 @@
     <string name="menu_evolution">Evolution de la pandemie</string>
     <string name="menu_symptome">Symptomes</string>
 
-    <string name="menu_form">Formulaire</string>
+    <string name="menu_form">E-Consultation</string>
     <string name="menu_tip">Aide et conseil</string>
-    <string name="menu_alert">Déclencher alerte</string>
+    <string name="menu_alert">Signaler un malade</string>
 
     <string name="menu_update">Mis à jour</string>
     <string name="menu_follow">Prise en charge</string>
     <string name="logo_text">Logo texte</string>
     <string name="logo_vert">Logo vert</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
